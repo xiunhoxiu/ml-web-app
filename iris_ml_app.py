@@ -5,9 +5,9 @@ from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
 
 st.write("""
-## Simple Iris Flower Prediction
+# Simple Iris Flower Prediction
 
-This app predicts the ***Iris*** flower type!
+This app predicts the **Iris flower**  type!
 """)
 
 st.sidebar.header('User Input parameters')
@@ -48,5 +48,3 @@ st.write(iris.target_names[prediction])
 
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
-
-

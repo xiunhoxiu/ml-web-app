@@ -1,4 +1,3 @@
-from this import d
 import streamlit as st
 import pandas as pd
 from sklearn import datasets
